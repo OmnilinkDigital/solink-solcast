@@ -20,7 +20,7 @@ To run the application, you need to have the following tools installed:
 Clone the repository to a local folder:
 
 ```bash
-git clone
+git clone https://github.com/OmnilinkDigital/solink-solcast.git
 ```
 
 Navigate to the project folder and install the dependencies. Please note that you may need to use the `--legacy-peer-deps` flag if you are using a newer version of NPM. [See more](https://stackoverflow.com/a/66620869/7260876) about the issue.
