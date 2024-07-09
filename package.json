@@ -1,0 +1,30 @@
+{
+   "name": "solink-solcast",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "type": "module",
+   "scripts": {
+      "dev": "node --loader ts-node/esm --watch --env-file=.env src/index.ts",
+      "start": "node --loader ts-node/esm --env-file=.env src/index.ts",
+      "typeorm": "typeorm-ts-node-esm"
+   },
+   "dependencies": {
+      "@hono/node-server": "^1.12.0",
+      "axios": "^1.7.2",
+      "cron": "^3.1.7",
+      "hono": "^4.4.12",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.20",
+      "winston": "^3.13.0"
+   },
+   "devDependencies": {
+      "@eslint/js": "^9.6.0",
+      "@types/node": "^16.11.10",
+      "eslint": "^9.6.0",
+      "globals": "^15.8.0",
+      "ts-node": "^10.9.2",
+      "typescript": "4.5.2",
+      "typescript-eslint": "^7.15.0"
+   }
+}
